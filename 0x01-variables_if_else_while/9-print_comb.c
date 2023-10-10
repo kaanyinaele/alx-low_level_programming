@@ -1,9 +1,9 @@
 #include <stdio.h>
-/*
-* main - Entry point
-* Description - Print a combo of single dig nums
-*  Return: Always 0 (Success)
-*/
+/**
+ * main -Entry point
+ * Return: Always 0 (Success)
+ */
+/*Main Description: Prints a combo of digits*/
 int main(void)
 {
 	int number;
@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(number + '0');
 		if (number < 9)
-		{ putchar(',') putchar(' ');
+		{ putchar(','); putchar(' ');
 		}}
 	putchar('\n');
 	return (0);
