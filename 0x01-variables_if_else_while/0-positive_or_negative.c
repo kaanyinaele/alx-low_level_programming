@@ -21,4 +21,7 @@ int main(void)
 	printf("%d is positive\n", n);
 	return (0);
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 9ceda4396492e04abdb55ec03b565316eb67ba80
